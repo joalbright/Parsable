@@ -1,6 +1,6 @@
 //
 //  Savable.swift
-//  Encodable
+//  Parsable
 //
 //  Created by Jo Albright on 1/6/16.
 //
@@ -21,11 +21,7 @@ extension Saveable {
         
         let path = directory + "/" + name
         
-        DispatchQueue.global().async {
-            
-            NSKeyedArchiver.archiveRootObject(info, toFile: path)
-            
-        }
+        DispatchQueue.global().async { NSKeyedArchiver.archiveRootObject(info, toFile: path) }
         
     }
     
@@ -39,11 +35,7 @@ extension Saveable {
             
             let data = NSKeyedUnarchiver.unarchiveObject(withFile: path)
             
-            DispatchQueue.main.async(execute: {
-                
-                completion(data)
-                
-            })
+            DispatchQueue.main.async { completion(data) }
             
         }
         

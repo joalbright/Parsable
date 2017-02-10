@@ -49,10 +49,6 @@ class Album: Parsable {
 }
 ```
 
-## Requirements
-
-This uses [Inlinit](https://github.com/joalbright/Inlinit) (a protocol that allows closure initalizers). 
-
 ## Author
 
 [Jo Albright](https://github.com/joalbright)

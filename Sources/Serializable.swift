@@ -1,6 +1,6 @@
 //
 //  Serializable.swift
-//  Encodable
+//  Parsable
 //
 //  Created by Jo Albright on 1/9/16.
 //

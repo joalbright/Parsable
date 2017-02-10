@@ -26,9 +26,9 @@
 		13791F221E4E3D3A00BBA401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13791F251E4E3D3A00BBA401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13791F271E4E3D3A00BBA401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13791F2E1E4E3D8200BBA401 /* Parsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parsable.swift; sourceTree = "<group>"; };
-		13791F2F1E4E3D8200BBA401 /* Savable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Savable.swift; sourceTree = "<group>"; };
-		13791F301E4E3D8200BBA401 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		13791F2E1E4E3D8200BBA401 /* Parsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parsable.swift; path = ../../Sources/Parsable.swift; sourceTree = "<group>"; };
+		13791F2F1E4E3D8200BBA401 /* Savable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Savable.swift; path = ../../Sources/Savable.swift; sourceTree = "<group>"; };
+		13791F301E4E3D8200BBA401 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serializable.swift; path = ../../Sources/Serializable.swift; sourceTree = "<group>"; };
 		13791F341E4E3DAE00BBA401 /* ParsableOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParsableOperators.swift; path = ../../Sources/ParsableOperators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
